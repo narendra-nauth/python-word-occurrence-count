@@ -5,7 +5,7 @@ wordHash    = {}
 #Splitting text into Array of Words
 words       = text.split(' ')
 
-#If word exist in Word Hash THEN Increment its Sount, ELSE Start its Sount at 1
+#If word exist in Word Hash THEN Increment its Count, ELSE Start its Sount at 1
 def checkForWord(search, words):
     if search in wordHash:
         wordHash[search] += 1
